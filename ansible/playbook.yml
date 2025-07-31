@@ -1,0 +1,5 @@
+- name: Configure Backend Instance
+  hosts: backend
+  become: true
+  roles:
+    - backend
