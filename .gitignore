@@ -1,0 +1,17 @@
+# terraform ignore
+/terraform/.terraform/
+/terraform/terraform.tfstate
+/terraform/terraform.tfstate.backup
+/terraform/terraform.tfvars
+/terraform/terraform.tfvars.json
+/terraform/plan.out
+/terraform/.terraform.lock.hcl
+
+# ansible ignore
+/ansible/.ansible.cfg
+/ansible/inventory.ini
+/ansible/playbook.yml
+/ansible/roles/
+/ansible/requirements.yml
+/ansible/ansible.cfg
+/ansible/ansible.cfg.bak
